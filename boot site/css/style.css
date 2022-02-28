@@ -1,0 +1,152 @@
+*{
+    font-family: 'Neutrif Studio', sans-serif;
+    box-sizing: border-box;
+    background-color: #FFFBF5;
+}
+.navbar, .navbar-header{
+    height: 50px;
+    background-color: #B7FF05;
+    border: none;
+}
+
+.logo1{
+    width: 111px;
+    height: 20px;
+    margin-left: 120px;
+}
+.logo2{
+    width: 150px;
+    height: 96px;
+    margin-left: 100px;
+}
+.car{
+    width: 500px;
+    position: absolute;
+    right: 0;
+    top: 240px;
+}
+.container
+{
+    margin-top: 130px;
+    line-height: 15px;
+    margin-left: 165px;
+    height: 255px;
+    width: 100%;
+    max-width: 695px;
+}
+.container h1{
+    font-size: 55px;
+    color: #3f3f3f;
+    line-height: 55px;
+    letter-spacing: 1.5px;
+}
+.container h1 span{
+    background-color: rgba(149, 126, 254,0.3);
+}
+.container h3{
+    font-size: 22px;
+    line-height: 25px;
+    color: #3f3f3f;
+}
+.container h3 span{
+    background-color: rgba(149, 126, 254,0.3);
+}
+.container .p1, .p2{
+    color: #939393;
+    font-size: 17px;
+    margin-top: 15px;
+    line-height: 24px;
+
+}
+.container a{
+    font-weight: 800;
+    color: #957eFe;
+    text-decoration: underline;
+}
+.container h6{
+    color: #3f3f3f;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.container h2{
+    color: #3f3f3f;
+    font-size: 34px;
+    margin-top: 50px;
+    border-bottom: 4px solid rgba(214,242,239, .3);
+    padding-bottom: 10px;
+}
+.container .p3{
+    color: #b1b1b1;
+    font-size: 21px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+.container .zip{
+    display: flex;
+}
+.glif{
+    position: absolute;
+    left: 187px;
+    top: 670px;
+    font-size: 35px;
+    z-index: 1;
+    color: #e7e5e5;
+}
+.container .zip{
+    margin-top: 20px;
+}
+.container .zip .form-control{
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    padding-inline-start: 40px;
+}
+.container .zip button{
+    width: 260px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #e7e5e5;
+    border: #bebebe solid 2px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #adacac;
+    font-weight: 500;
+    cursor: auto;
+}
+.container .zip button:hover{
+    width: 260px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #e7e5e5;
+    border: #bebebe solid 2px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #adacac;
+    font-weight: 500;
+    cursor: auto;
+}
+.container .zip button.active{
+    background-color: #B7FF05;
+    color: #000000;
+    border: #000000 solid 3px;
+    font-weight: 800;
+}
+.car-img{
+    width: 100%;
+    max-width: 1135px;
+    z-index: 32;
+    position: absolute;
+    left: 100px;
+    margin-top: 465px;
+}
+.red{
+    background-color: #D84B4C;
+    width: 100%;
+    height: 100%;
+    min-height: 1024px;
+    position: relative;
+    left: 0px;
+    margin-top: 1321px;
+    z-index: 0;
+}
